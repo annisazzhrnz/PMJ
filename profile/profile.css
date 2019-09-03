@@ -1,0 +1,27 @@
+.card-content{
+ display: flex;
+ justify-content: flex-start;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+ 
+ /* .card-content{
+  	display: grid;
+  }
+  .card{
+  	display: grid;
+  }*/
+}
+.subnavbar {
+  width: 70%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-image: var(--f7-subnavbar-bg-image, var(--f7-bars-bg-image));*/
+  /*background-color: var(--f7-subnavbar-bg-color, var(--f7-bars-bg-color));*/
+  /*color: var(--f7-subnavbar-text-color, var(--f7-bars-text-color));*/
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+    	<div class="panel panel-left panel-reveal panel-resizable">
+      <div class="block">
+        <p>Menu</p>
+        <div class="">
+        <p><a class="panel-close" href="index.html">
+        	<p>Home</p>
+        </a></p>
+        </div>
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Profile</p>
+        </a></p>
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Faculty and Units</p>
+        </a></p>
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Activity</p>
+        </a></p>
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Contact Us</p>
+        </a></p>
+       
+      </div>
+    </div>
+    <div class="view view-main view-init">
+    	 <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+      		 <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+            	<img  src="images/logo.png">
+              
+            </div>
+          </div>
+        
+        <div class="page-content">
+
+          <div class="block">
+            <a class="panel-open" href="#">
+            	<i class="icon f7-icons color-black">bars</i>
+            	
+            </a>
+
+
+            <div class="card">
+  					<div class="card">
+  						<div class="card-content card-content-padding">
+  						<img src="images/pmj.jpg"> </div>
+					</div>
+				</div>
+
+          	<div class="top">
+          		<div>
+          			<div class="card card-outline">
+  						<div class="card-content card-content-padding">This is a simple card with plain text, but cards can also contain their own header, footer, list view, image, or any other element.</div>
+					</div>
+
+					<div class="card card-outline">
+  						<div class="card-header">Card header</div>
+  						<div class="card-content card-content-padding">Card with header and footer. Card headers are used to display card titles and footers for additional information or just for custom actions.</div>
+ 				 		<div class="card-footer">Card Footer</div>
+					</div>
+
+					<div class="card card-outline">
+ 						<div class="card-content card-content-padding">Another card. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sem est, non tincidunt ligula volutpat sit amet. Mauris aliquet magna justo. </div>
+					</div>
+				</div>
+
+				<div>
+					<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+
+				
+				</div>
+          	</div> <!--div top-->
+            
+            <div class="card">	
+          	 <div class="card-header">Card header</div>
+           	</div>
+
+           	<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="3" class="swiper-container swiper-init demo-swiper">
+ 			 <div class="swiper-pagination"></div>
+  			<div class="swiper-wrapper">
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+ 				   <div class="swiper-slide">
+ 				   <div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+ 				   </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+  				  <div class="swiper-slide">
+  				  	<div class="card demo-card-header-pic">
+  						<div style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)" class="card-header align-items-flex-end">Journey To Mountains</div>
+  						<div class="card-content card-content-padding">
+  						   <p class="date">Posted on January 21, 2015</p>
+ 						   <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+  						</div>
+ 						<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+					</div>
+  				  </div>
+ 				 </div>
+				 </div>
+           	 
+         
+
+			<div class="block" style="background-color: #1a2930;z-index: -1 ;" >
+  				<div style="display: flex;justify-content: space-between;">
+  					
+  					<div style="display: grid;justify-content: flex-start;color: white;">
+  					<h1> OUR CONTACT</h1>
+  					<div style="display: flex ;align-items:baseline; ">
+  					<i class="icon f7-icons color-white">logo_twitter</i>	
+  					<p> @PMJ </p>
+  					</div>
+  					
+  					<div style="display: flex;align-items:baseline;">
+  					<i class="icon f7-icons color-white ">logo_facebook</i>
+  					<p> Politeknik Mersing Johor</p>	
+  					</div>
+
+  					<div style="display: flex;align-items:baseline;">
+  					<i class="icon f7-icons color-white">logo_instagram</i>
+  					<p>PMJ</p>	
+  					</div>
+  					<div style="display: flex;align-items:baseline;">
+  					<i class="icon f7-icons color-white">email</i>
+  					<p> PMJ@gmail.com</p>
+  					</div>  				
+  					
+  					</div>
+  					<div>
+  						<h3 style="color: white;">Politeknik Mersing Johor</h3>
+  					<div style=" display: flex;align-items: center;">
+  					<img src="images/logo.png"  style="padding-right: 45%;">
+  					</div>
+  					</div>
+  					
+  				</div>
+			</div>
+
+         
+          <button class="col button button-small">Back to top</button>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+  	</div>
+     
+
+         
+          <!-- Scrollable page content -->
+          
+          	<!--card-->
+
+  				
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

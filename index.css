@@ -1,0 +1,148 @@
+/* Your app styles here */
+
+/* Left Panel right border when it is visible by breakpoint */
+.panel-left.panel-visible-by-breakpoint:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: rgba(0,0,0,0.1);
+  content: '';
+  z-index: 6000;
+}
+
+/* Hide navbar link which opens left panel when it is visible by breakpoint */
+.panel-left.panel-visible-by-breakpoint ~ .view .navbar .panel-open[data-panel="left"] {
+  display: none;
+}
+
+/*
+  Extra borders for main view and left panel for iOS theme when it behaves as panel (before breakpoint size)
+*/
+.ios .panel-left:not(.panel-visible-by-breakpoint).panel-active ~ .view-main:before,
+.ios .panel-left:not(.panel-visible-by-breakpoint).panel-closing ~ .view-main:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: rgba(0,0,0,0.1);
+  z-index: 6000;
+}
+.title{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: none;
+  opacity: 1;
+  z-index: -1;
+}
+.page-content {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  /*background-color: #95969a;*/
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: calc(var(--f7-page-navbar-offset, 0px) + var(--f7-page-toolbar-top-offset, 0px) + var(--f7-page-subnavbar-offset, 0px) + var(--f7-page-searchbar-offset, 0px) + var(--f7-page-content-extra-padding-top, 0px));
+  padding-bottom: calc(var(--f7-page-toolbar-bottom-offset, 0px) + var(--f7-safe-area-bottom) + var(--f7-page-content-extra-padding-bottom, 0px));
+}
+.page{
+  background-color: #95969a;
+}
+.navbar-inner {
+  display: grid
+  justify-content:center;
+}
+.navbar {
+  background-color:   #FFFFFF;
+  justify-content: center;
+
+  }
+  .navbar{
+    display: grid;
+  }
+
+.md .navbar-inner {
+  overflow: hidden;
+}
+
+.demo-card-header-pic .card-header {
+  height: 8.7vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+  color: #8e8e93;
+}
+.top{
+  display: flex;
+  height: relative;
+  justify-content: center;
+}
+.menu{
+  margin-top: 10px;
+}
+.card-content{
+   display: flex;
+  justify-content: center;
+}
+.slider{
+  width: 70%;
+  height: 50%;
+  margin-top: 0.5%;
+  background-image: url("images/pmj.jpg");
+  background-repeat: no-repeat;
+  /*position: absolute;*/
+  margin-left: 25%;
+ 
+}
+.slider1{
+  width: 100%;
+  height: 300px;
+  margin-top: 0.5%;
+  margin-bottom: 2  %;
+  background-color: white;
+}
+.page {
+  overflow: scroll
+}
+.menu-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: var(--f7-menu-item-spacing);
+  padding-right: var(--f7-menu-item-spacing);
+  width: auto;
+}
+hr{
+  color: black;
+  width: 100%;
+  left: -10%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card-header{
+  text-align: center;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+  .top{
+    display: grid;
+  }
+}
+

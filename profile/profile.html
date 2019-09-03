@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Profile</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="../css/framework7.bundle.css">
+    <link rel="stylesheet" href="../css/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="profile.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+    	<div class="panel panel-left panel-resizable">
+      <div class="block">
+        <p>Menu</p>
+      
+        <a class="link" href="../index.html">Home</a>
+        
+        <p><a class="panel-close" href="profile.html">
+        	
+        	<p>Profile</p>
+        </a></p>
+        
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Jabatan dan Units</p>
+        </a></p>
+        <p><a class="panel-close" href="index.html">
+        	
+        	<p>Activity</p>
+        </a></p>
+       
+      </div>
+    </div>
+    <div class="view view-main view-init">
+    	 <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="profile" class="page">
+      		 <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+            	<img  src="../images/logo.png">
+              	
+            </div>
+
+          </div>
+        
+        	
+         <div class="page-content hide-navbar-on-scroll">
+        
+       				 <div class="block">
+         				 <div class="block">
+
+         				 	<div style="display: flex;align-items: baseline;">
+           						 <a class="panel-open" href="#">
+            						<i class="icon f7-icons color-black">bars</i>
+           						 </a>
+           						 
+           					</div>
+           				<h1>Profile</h1>
+           				<div class="toolbar tabbar toolbar-bottom">
+    						<div class="toolbar-inner">
+      							<a href="#tab-1" class="tab-link tab-link-active">Visi dan Misi</a>
+      							<a href="#tab-2" class="tab-link">Struktur Organisasi</a>
+      					
+    						</div>
+  						</div>
+  						
+  						<div class="tabs-swipeable-wrap">
+   							 <div class="tabs">
+     								 <div id="tab-1" class="page-content tab tab-active">
+        								<div class="block">
+         									 <div class="card">
+  												
+											 </div>
+				 							<div class="card" style="display: flex;justify-content: center;">	
+          		 								<div class="card-header">
+          		 									<h1 style="text-align: center;">Visi dan Misi</h1>
+          		 								</div>
+           									</div>
+          						<div class="top">
+          							<div>
+          								<img style="padding-right: 10%" src="../images/visi.png">
+									</div>
+
+									<div>
+										<img src="../images/misi.png">
+
+				
+									</div>
+          						</div> <!--div top-->
+            
+           						 <div class="card">	
+          							 <div class="card-header">Card header</div>
+           						</div>
+        								</div>
+      								</div>
+     								<div id="tab-2" class="page-content tab">
+       									<div class="block">
+         									<div style="display: flex;justify-content: center;">
+                          <img src="../images/organisasi.png">  
+                          </div>
+         								
+      								</div>
+
+      								
+      								
+      								</div>
+      								
+     								 
+   								 </div>
+  							</div>
+           				
+           				
+
+			<div class="block" style="background-color: #1a2930;z-index: -1 ;" >
+  					<div style="display: grid;justify-content: center;color: white;align-items: center;">
+  					<h1> OUR CONTACT</h1>
+            <hr>
+  					
+  					<h3 style="color: white;">Politeknik Mersing Johor</h3>
+  					<div style=" display: flex;align-items: center;">
+  					<img src="../images/logo.png"  style="padding-right: 45%;">
+  					</div>
+            <br>
+            <div style="display: flex;align-items: baseline;">
+            <i class="icon f7-icons color-white">navigation</i>
+            <p>Politeknik Mersing, Jalan Nitar,
+                Mersing
+                Johor
+                86800
+                Malaysia</p>
+                </div>
+
+                <div style="display: flex;align-items: baseline;">
+                   <i class="icon f7-icons color-white">phone</i>
+                    <p>07-798 0001</p>
+                </div>
+
+                <div style="display: flex;align-items: baseline;">
+                   <i class="icon f7-icons color-white">world</i>
+                   <p>07-798 0001</p>
+                </div>
+                <div style="display: flex;justify-content: space-between;">
+                  <i class="icon f7-icons color-white">logo_twitter</i>
+                  <i class="icon f7-icons color-white ">logo_facebook</i>
+                  <i class="icon f7-icons color-white">logo_instagram</i>
+                  <i class="icon f7-icons color-white">email</i>
+
+                </div>
+                <br>
+  					</div>
+  				
+			</div>
+
+         
+          <button class="col button button-small">Back to top</button>
+        </div>
+    
+          
+      </div>
+  		</div>
+          </div>
+        </div>
+      </div>
+  	
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="../js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="../index.js"></script>
+    
+  </body>
+</html>
